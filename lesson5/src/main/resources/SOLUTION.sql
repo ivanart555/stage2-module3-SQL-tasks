@@ -6,7 +6,7 @@ SELECT * FROM Student WHERE groupnumber = 10 AND birthday >= DATEADD(YEAR, -20, 
 
 SELECT * FROM STUDENT AS s WHERE s.name LIKE 'MIke%' OR groupnumber IN ( 4, 5, 6);
 
-SELECT * FROM PAYMENT WHERE payment_date > DATEADD(MONTH, -8, CURRENT_DATE());
+SELECT * FROM PAYMENT WHERE payment_date > DATEADD(MONTH, -8, '20221231');
 
 SELECT * FROM STUDENT AS s WHERE s.name LIKE 'A%';
 
